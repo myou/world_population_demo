@@ -2,10 +2,14 @@
 <html ng-app='worldPop'>
 <head>
 <title>World Populations</title>
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="/style/app.css">
+<link rel='stylesheet' href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+<link rel='stylesheet' href='/style/app.css'>
 </head>
 <body>
+<div ng-controller='ChartCtrl' class='linechart-view'>
+  <wp-linechart id='lc'>
+  </wp-linechart>
+</div>
 <div ng-controller='TabularCtrl' class='tabular-view'>
   <table class='table table-bordered table-striped'>
     <thead><tr>
@@ -23,7 +27,8 @@
   </table>
 </div>
 
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src='http://d3js.org/d3.v3.min.js' charset='utf-8'></script>
+
 <script type='text/javascript'>
   var worldPopData = <%- worldPopData %>;
 </script>
@@ -31,5 +36,7 @@
 <script src='/app.js'></script>
 <script src='/services/wp_data.js'></script>
 <script src='/controllers/tabular.js'></script>
+<script src='/controllers/chart.js'></script>
+<script src='/directives/wp_linechart.js'></script>
 </body>
 </html>

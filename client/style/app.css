@@ -6,3 +6,20 @@ td {
 .tabular-view {
   margin: 20px;
 }
+
+.linechart-view {
+  margin: 50px;
+}
+
+path {
+  stroke: black;
+  fill: none;
+}
+
+line {
+  stroke: black;
+}
+
+text {
+  font-size: 12pt;
+}

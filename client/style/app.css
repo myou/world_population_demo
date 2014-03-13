@@ -1,4 +1,8 @@
 
+body {
+  padding: 50px;
+}
+
 td {
   white-space: nowrap;
 }
@@ -9,8 +13,39 @@ td {
 
 .linechart-view {
   margin: 50px;
+  display: inline-block;
 }
 
+.select-view {
+  border: 1px solid black;
+  padding: 20px;
+  display: inline-block;
+  vertical-align:top
+}
+
+.select-view > div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.select-view .selected-countries {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.select-view .search-results {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.select-view .search-control {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 path {
   stroke: black;
   fill: none;

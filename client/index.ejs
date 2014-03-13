@@ -6,10 +6,46 @@
 <link rel='stylesheet' href='/style/app.css'>
 </head>
 <body>
+
+<div ng-controller='SelectCtrl' class='select-view'>
+  <div class='search-control'>
+    <span>Search for other countries to add:</span>
+    <input type='text' ng-model='search.name'/>
+  </div>
+
+  <div ng-if='!search.name'>
+    <p>Please type in the country name to begin searching.</p>
+  </div>
+  <div ng-if='search.name'>
+    <p>Search Results:</p>
+    <div ng-repeat='searchResult in topFiveSearchResults()'>
+      <span class='search-results'>
+        {{searchResult}} <button ng-click='add($index)'>add</button>
+      </span>
+    </div>
+    <div ng-if='topFiveSearchResults().length === 0'>
+      Nothing matches the search query.
+    </div>
+  </div>
+
+  <div ng-if='selectedCountries.length === 0'>
+    No countries selected at the moment.
+  </div>
+  <div ng-if='selectedCountries.length !== 0'>
+    <p>Currently selected countries:</p>
+    <div ng-repeat='selectedCountry in selectedCountries'>
+      <span class='selected-countries'>
+        {{selectedCountry}} <button ng-click='remove($index)'>remove</button>
+      </span>
+    </div>
+  </div>
+</div>
+
 <div ng-controller='ChartCtrl' class='linechart-view'>
   <wp-linechart id='lc'>
   </wp-linechart>
 </div>
+
 <div ng-controller='TabularCtrl' class='tabular-view'>
   <table class='table table-bordered table-striped'>
     <thead><tr>
@@ -35,8 +71,9 @@
 <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.min.js'></script>
 <script src='/app.js'></script>
 <script src='/services/wp_data.js'></script>
-<script src='/controllers/tabular.js'></script>
 <script src='/controllers/chart.js'></script>
+<script src='/controllers/tabular.js'></script>
+<script src='/controllers/select.js'></script>
 <script src='/directives/wp_linechart.js'></script>
 </body>
 </html>

@@ -9630,216 +9630,216 @@
     ]
   },
   {
-    "name": "\"Bahamas",
-    "code": " The\"",
+    "name": "Bahamas, The",
+    "code": "BHS",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 109527
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 115112
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 121090
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 127340
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 133709
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 140063
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 146379
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 152623
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 158644
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 164263
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 169367
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 173875
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 177849
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 181490
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 185091
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 188870
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 192885
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 197090
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 201474
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 205990
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 210600
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 215330
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 220188
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 225083
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 229899
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 234553
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 238989
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 243236
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 247409
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 251671
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 256128
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 260845
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 265761
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 270701
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 275426
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 279774
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 283677
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 287217
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 290571
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 293988
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 297651
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 301606
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 305801
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 310201
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 314739
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 319358
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 324066
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 328861
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 333661
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 338358
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 342877
+      },
+      {
+        "year": 2011,
+        "population": 347176
       }
     ]
   },
@@ -16050,430 +16050,430 @@
     ]
   },
   {
-    "name": "\"Congo",
-    "code": " Dem. Rep.\"",
+    "name": "Congo, Dem. Rep.",
+    "code": "COD",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 15367539
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 15767376
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 16181202
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 16612368
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 17065408
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 17543319
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 18048341
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 18579012
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 19130171
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 19694467
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 20267009
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 20845085
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 21431338
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 22032669
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 22658905
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 23316776
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 24011465
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 24740389
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 25493382
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 26255837
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 27018690
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 27781042
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 28551259
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 29341286
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 30167580
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 31044153
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 31963766
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 32927332
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 33965482
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 35117790
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 36406226
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 37856212
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 39443819
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 41081774
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 42650247
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 44067369
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 45295039
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 46369335
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 47373590
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 48429878
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 49626200
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 50989424
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 52491329
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 54098245
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 55754885
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 57420522
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 59088415
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 60772175
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 62474901
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 64204304
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 65965795
+      },
+      {
+        "year": 2011,
+        "population": 67757577
       }
     ]
   },
   {
-    "name": "\"Congo",
-    "code": " Rep.\"",
+    "name": "Congo, Rep.",
+    "code": "COG",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 1013581
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 1039961
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 1067597
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 1096480
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 1126584
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 1157905
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 1190402
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 1224134
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 1259319
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 1296244
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 1335088
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 1375987
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 1418826
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 1463231
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 1508675
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 1554793
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 1601410
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 1648671
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 1696922
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 1746676
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 1798285
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 1851889
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 1907330
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 1964298
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 2022343
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 2081152
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 2140687
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 2201097
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 2262489
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 2325035
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 2388902
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 2453938
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 2520196
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 2588270
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 2658948
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 2732706
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 2810118
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 2890841
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 2973329
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 3055437
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 3135773
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 3213330
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 3288923
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 3365171
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 3445765
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 3533177
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 3628561
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 3730612
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 3836339
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 3941454
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 4042899
+      },
+      {
+        "year": 2011,
+        "population": 4139748
       }
     ]
   },
@@ -19046,216 +19046,216 @@
     ]
   },
   {
-    "name": "\"Egypt",
-    "code": " Arab Rep.\"",
+    "name": "Egypt, Arab Rep.",
+    "code": "EGY",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 27903093
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 28648825
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 29408697
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 30182426
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 30970067
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 31771227
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 32586961
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 33415926
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 34252634
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 35089893
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 35923283
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 36751162
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 37577248
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 38409289
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 39258086
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 40132189
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 41033408
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 41961731
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 42921556
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 43917526
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 44952497
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 46025305
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 47133557
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 48276547
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 49453054
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 50659625
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 51899728
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 53166492
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 54433720
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 55667119
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 56843275
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 57952386
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 59004372
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 60020423
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 61032081
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 62063810
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 63120498
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 64199588
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 65309201
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 66457136
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 67648419
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 68888032
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 70174632
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 71498433
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 72844998
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 74203215
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 75568453
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 76941572
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 78323298
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 79716203
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 81121077
+      },
+      {
+        "year": 2011,
+        "population": 82536770
       }
     ]
   },
@@ -21614,216 +21614,216 @@
     ]
   },
   {
-    "name": "\"Gambia",
-    "code": " The\"",
+    "name": "Gambia, The",
+    "code": "GMB",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 372625
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 382164
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 389768
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 396158
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 402436
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 409450
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 417350
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 426005
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 435647
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 446488
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 458663
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 472432
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 487790
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 504267
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 521186
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 538110
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 554910
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 571891
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 589570
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 608680
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 629786
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 652817
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 677685
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 704894
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 735056
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 768460
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 805491
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 845642
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 887224
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 927937
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 966151
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 1001252
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 1033748
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 1064522
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 1094974
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 1126183
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 1158308
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 1191155
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 1225044
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 1260283
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 1297084
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 1335674
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 1376035
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 1417818
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 1460493
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 1503678
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 1547259
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 1591357
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 1636107
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 1681734
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 1728394
+      },
+      {
+        "year": 2011,
+        "population": 1776103
       }
     ]
   },
@@ -24610,216 +24610,216 @@
     ]
   },
   {
-    "name": "\"Hong Kong SAR",
-    "code": " China\"",
+    "name": "Hong Kong SAR, China",
+    "code": "HKG",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 3075605
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 3168100
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 3305200
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 3420900
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 3504600
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 3597900
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 3629900
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 3722800
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 3802700
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 3863900
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 3959000
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 4045300
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 4123600
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 4241600
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 4334200
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 4461600
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 4518000
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 4583700
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 4667500
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 4929700
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 5063100
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 5183400
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 5264500
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 5345100
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 5397900
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 5456200
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 5524600
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 5590500
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 5627600
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 5686200
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 5704500
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 5752000
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 5800500
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 5901000
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 6035400
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 6156100
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 6435500
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 6489300
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 6543700
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 6606500
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 6665000
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 6714300
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 6744100
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 6730800
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 6783500
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 6813200
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 6857100
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 6925900
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 6977700
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 7003700
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 7067800
+      },
+      {
+        "year": 2011,
+        "population": 7071600
       }
     ]
   },
@@ -25680,216 +25680,216 @@
     ]
   },
   {
-    "name": "\"Iran",
-    "code": " Islamic Rep.\"",
+    "name": "Iran, Islamic Rep.",
+    "code": "IRN",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 21999103
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 22571865
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 23163924
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 23775945
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 24408927
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 25063612
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 25743217
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 26448218
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 27173692
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 27912687
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 28662011
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 29421198
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 30197689
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 31006191
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 31866190
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 32793173
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 33788867
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 34853522
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 35998637
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 37237306
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 38576541
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 40012129
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 41533339
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 43130529
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 44790735
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 46497235
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 48257311
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 50052662
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 51810746
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 53437770
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 54870583
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 56071545
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 57067645
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 57940444
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 58808655
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 59757114
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 60815686
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 61955730
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 63133032
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 64278307
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 65342319
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 66313553
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 67212850
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 68061695
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 68893323
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 69732007
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 70582086
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 71435498
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 72289291
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 73137148
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 73973630
+      },
+      {
+        "year": 2011,
+        "population": 74798599
       }
     ]
   },
@@ -28248,430 +28248,430 @@
     ]
   },
   {
-    "name": "\"Korea",
-    "code": " Dem. Rep.\"",
+    "name": "Korea, Dem. Rep.",
+    "code": "PRK",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 10946479
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 11219876
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 11478046
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 11734690
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 12011509
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 12323345
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 12671954
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 13048499
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 13444411
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 13847248
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 14246772
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 14642731
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 15034521
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 15411302
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 15759909
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 16072089
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 16341363
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 16572788
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 16784068
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 17000252
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 17239340
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 17508435
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 17802273
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 18111491
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 18421195
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 18720888
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 19006458
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 19282372
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 19556657
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 19841107
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 20143212
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 20466180
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 20804249
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 21145052
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 21471407
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 21770898
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 22038893
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 22278723
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 22495715
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 22698674
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 22894095
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 23083419
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 23264576
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 23436550
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 23597383
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 23745941
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 23882465
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 24008606
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 24126329
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 24238179
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 24346229
+      },
+      {
+        "year": 2011,
+        "population": 24451285
       }
     ]
   },
   {
-    "name": "\"Korea",
-    "code": " Rep.\"",
+    "name": "Korea, Rep.",
+    "code": "KOR",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 25074152
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 25725456
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 26437008
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 27140032
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 27836904
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 28530000
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 29217736
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 29898528
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 30574752
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 31248784
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 31923000
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 32595816
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 33265648
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 33934872
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 34605864
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 35281000
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 35849000
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 36412000
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 36969000
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 37534000
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 38124000
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 38723000
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 39326000
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 39910000
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 40406000
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 40806000
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 41184000
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 41575000
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 41975000
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 42380000
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 42869000
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 43268000
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 43663000
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 44056000
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 44453000
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 45093000
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 45525000
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 45954000
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 46287000
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 46617000
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 47008000
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 47357000
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 47622000
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 47859000
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 48039000
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 48138000
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 48372000
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 48598000
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 48949000
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 49182000
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 49410000
+      },
+      {
+        "year": 2011,
+        "population": 49779000
       }
     ]
   },
@@ -31244,430 +31244,430 @@
     ]
   },
   {
-    "name": "\"Macao SAR",
-    "code": " China\"",
+    "name": "Macao SAR, China",
+    "code": "MAC",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 171450
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 175129
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 181020
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 188698
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 197519
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 206906
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 216869
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 227256
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 237127
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 245308
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 250995
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 253879
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 254280
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 252843
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 250548
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 248211
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 245913
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 243725
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 242455
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 243067
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 246230
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 252251
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 260913
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 271665
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 283662
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 296210
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 309212
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 322637
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 335931
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 348443
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 359709
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 369493
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 377886
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 385193
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 391906
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 398426
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 404808
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 411050
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 417435
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 424292
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 431867
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 440265
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 449472
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 459456
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 470127
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 481390
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 493267
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 505709
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 518463
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 531195
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 543656
+      },
+      {
+        "year": 2011,
+        "population": 555731
       }
     ]
   },
   {
-    "name": "\"Macedonia",
-    "code": " FYR\"",
+    "name": "Macedonia, FYR",
+    "code": "MKD",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 1391996
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 1405483
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 1422698
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 1442355
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 1462410
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 1481397
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 1498995
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 1515804
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 1532371
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 1549553
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 1567968
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 1587484
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 1607799
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 1629127
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 1651721
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 1675598
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 1701231
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 1728165
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 1754389
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 1777205
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 1794830
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 1806228
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 1812327
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 1815719
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 1820117
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 1828148
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 1840767
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 1857034
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 1875387
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 1893409
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 1909353
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 1922774
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 1934265
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 1944343
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 1953874
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 1963484
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 1973283
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 1982994
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 1992404
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 2001178
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 2009091
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 2016075
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 2022255
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 2027819
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 2033039
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 2038109
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 2043091
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 2047922
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 2052524
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 2056769
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 2060563
+      },
+      {
+        "year": 2011,
+        "population": 2063893
       }
     ]
   },
@@ -33812,216 +33812,216 @@
     ]
   },
   {
-    "name": "\"Micronesia",
-    "code": " Fed. Sts.\"",
+    "name": "Micronesia, Fed. Sts.",
+    "code": "FSM",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 44536
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 45954
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 47385
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 48873
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 50481
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 52236
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 54199
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 56322
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 58403
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 60166
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 61431
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 62105
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 62297
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 62288
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 62474
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 63143
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 64383
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 66106
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 68217
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 70546
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 72962
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 75456
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 78048
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 80667
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 83232
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 85682
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 87950
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 90037
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 92040
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 94105
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 96319
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 98749
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 101314
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 103780
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 105825
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 107233
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 107904
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 107947
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 107605
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 107237
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 107103
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 107290
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 107728
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 108325
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 108926
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 109419
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 109789
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 110092
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 110367
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 110676
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 111064
+      },
+      {
+        "year": 2011,
+        "population": 111542
       }
     ]
   },
@@ -51146,216 +51146,216 @@
     ]
   },
   {
-    "name": "\"Venezuela",
-    "code": " RB\"",
+    "name": "Venezuela, RB",
+    "code": "VEN",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 7562108
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 7852680
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 8150542
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 8453781
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 8759890
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 9067485
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 9375646
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 9686071
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 10003238
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 10333268
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 10680678
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 11045959
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 11428022
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 11827681
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 12245478
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 12681017
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 13135849
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 13607958
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 14088961
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 14567680
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 15036273
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 15570222
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 16047654
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 16522182
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 16993078
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 17460000
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 17922990
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 18382478
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 18839278
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 19294590
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 19750000
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 20197000
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 20659000
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 21121000
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 21583000
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 22043000
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 22502000
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 22959000
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 23413000
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 23867000
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 24311000
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 24765000
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 25220000
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 25674000
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 26127000
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 26577000
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 27031000
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 27483000
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 27935000
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 28384000
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 28834000
+      },
+      {
+        "year": 2011,
+        "population": 29278000
       }
     ]
   },
@@ -52002,216 +52002,216 @@
     ]
   },
   {
-    "name": "\"Yemen",
-    "code": " Rep.\"",
+    "name": "Yemen, Rep.",
+    "code": "YEM",
     "populationByYear": [
       {
         "year": 1960,
-        "population": null
-      },
-      {
-        "year": 1961,
         "population": 5116419
       },
       {
-        "year": 1962,
+        "year": 1961,
         "population": 5214688
       },
       {
-        "year": 1963,
+        "year": 1962,
         "population": 5317095
       },
       {
-        "year": 1964,
+        "year": 1963,
         "population": 5422115
       },
       {
-        "year": 1965,
+        "year": 1964,
         "population": 5527652
       },
       {
-        "year": 1966,
+        "year": 1965,
         "population": 5632206
       },
       {
-        "year": 1967,
+        "year": 1966,
         "population": 5737000
       },
       {
-        "year": 1968,
+        "year": 1967,
         "population": 5842868
       },
       {
-        "year": 1969,
+        "year": 1968,
         "population": 5947698
       },
       {
-        "year": 1970,
+        "year": 1969,
         "population": 6048704
       },
       {
-        "year": 1971,
+        "year": 1970,
         "population": 6144992
       },
       {
-        "year": 1972,
+        "year": 1971,
         "population": 6235264
       },
       {
-        "year": 1973,
+        "year": 1972,
         "population": 6323380
       },
       {
-        "year": 1974,
+        "year": 1973,
         "population": 6419984
       },
       {
-        "year": 1975,
+        "year": 1974,
         "population": 6539217
       },
       {
-        "year": 1976,
+        "year": 1975,
         "population": 6691425
       },
       {
-        "year": 1977,
+        "year": 1976,
         "population": 6880620
       },
       {
-        "year": 1978,
+        "year": 1977,
         "population": 7104782
       },
       {
-        "year": 1979,
+        "year": 1978,
         "population": 7360655
       },
       {
-        "year": 1980,
+        "year": 1979,
         "population": 7642329
       },
       {
-        "year": 1981,
+        "year": 1980,
         "population": 7945180
       },
       {
-        "year": 1982,
+        "year": 1981,
         "population": 8270681
       },
       {
-        "year": 1983,
+        "year": 1982,
         "population": 8620116
       },
       {
-        "year": 1984,
+        "year": 1983,
         "population": 8988432
       },
       {
-        "year": 1985,
+        "year": 1984,
         "population": 9369068
       },
       {
-        "year": 1986,
+        "year": 1985,
         "population": 9758220
       },
       {
-        "year": 1987,
+        "year": 1986,
         "population": 10149222
       },
       {
-        "year": 1988,
+        "year": 1987,
         "population": 10544972
       },
       {
-        "year": 1989,
+        "year": 1988,
         "population": 10962489
       },
       {
-        "year": 1990,
+        "year": 1989,
         "population": 11425336
       },
       {
-        "year": 1991,
+        "year": 1990,
         "population": 11948209
       },
       {
-        "year": 1992,
+        "year": 1991,
         "population": 12540234
       },
       {
-        "year": 1993,
+        "year": 1992,
         "population": 13190192
       },
       {
-        "year": 1994,
+        "year": 1993,
         "population": 13867656
       },
       {
-        "year": 1995,
+        "year": 1994,
         "population": 14530275
       },
       {
-        "year": 1996,
+        "year": 1995,
         "population": 15148172
       },
       {
-        "year": 1997,
+        "year": 1996,
         "population": 15710211
       },
       {
-        "year": 1998,
+        "year": 1997,
         "population": 16226938
       },
       {
-        "year": 1999,
+        "year": 1998,
         "population": 16716850
       },
       {
-        "year": 2000,
+        "year": 1999,
         "population": 17208494
       },
       {
-        "year": 2001,
+        "year": 2000,
         "population": 17723186
       },
       {
-        "year": 2002,
+        "year": 2001,
         "population": 18266008
       },
       {
-        "year": 2003,
+        "year": 2002,
         "population": 18831819
       },
       {
-        "year": 2004,
+        "year": 2003,
         "population": 19419710
       },
       {
-        "year": 2005,
+        "year": 2004,
         "population": 20026117
       },
       {
-        "year": 2006,
+        "year": 2005,
         "population": 20648643
       },
       {
-        "year": 2007,
+        "year": 2006,
         "population": 21288070
       },
       {
-        "year": 2008,
+        "year": 2007,
         "population": 21946990
       },
       {
-        "year": 2009,
+        "year": 2008,
         "population": 22626595
       },
       {
-        "year": 2010,
+        "year": 2009,
         "population": 23328214
       },
       {
-        "year": 2011,
+        "year": 2010,
         "population": 24052514
+      },
+      {
+        "year": 2011,
+        "population": 24799880
       }
     ]
   },

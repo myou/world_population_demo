@@ -4,10 +4,23 @@
 <title>World Populations</title>
 </head>
 <body>
-<h1>World Populations</h1>
 <div ng-controller='TabularCtrl'>
-  <h2>Total Number of Countries: {{getDataSize()}}</h2>
+  <table>
+    <thead><tr>
+      <th>Country</th>
+      <th ng-repeat='year in years'>{{year}}</th>
+    </tr></thead>
+    <tbody>
+      <tr ng-repeat='countryData in countriesData'>
+        <td>{{countryData.name}}</td>
+        <td ng-repeat='yearPop in countryData.populationByYear'>
+          {{yearPop.population}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 <script type='text/javascript'>
   var worldPopData = <%- worldPopData %>;
 </script>

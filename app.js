@@ -9,7 +9,6 @@ app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/client');
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
-app.use(app.router);
 app.use(express.static(path.join(__dirname, 'client')));
 app.use(express.errorHandler());
 

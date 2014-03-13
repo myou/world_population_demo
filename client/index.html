@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app='worldPop'>
+<head>
+<title>World Populations</title>
+</head>
+<body>
+<h1>World Populations</h1>
+<div ng-controller='TabularCtrl'>
+  <h2>Total Number of Countries: {{getDataSize()}}</h2>
+</div>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.min.js'></script>
+<script src='/app.js'></script>
+<script src='/services/wp_data.js'></script>
+<script src='/controllers/tabular.js'></script>
+</body>
+</html>

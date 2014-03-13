@@ -3,27 +3,12 @@ worldPop.directive('wpLinechart', function($parse) {
   return {
     restrict: 'E',
     replace: true,
+    scope: true,
     template: '<svg></svg>',
     link: function (scope, element, attrs) {
       var id = attrs.id;
-      var data = {
-        "name": "Arab World",
-        "code": "ARB",
-        "populationByYear": [
-          {
-            "year": 1960,
-            "population": 93145751
-          },
-          {
-            "year": 1961,
-            "population": 95588326
-          },
-          {
-            "year": 1962,
-            "population": 98125908
-          }
-        ]
-      };
+
+      var data = scope.data;
 
       var popData = data.populationByYear;
       var popNumData = popData.map(function(datum) {
@@ -36,6 +21,7 @@ worldPop.directive('wpLinechart', function($parse) {
       var minPopData = d3.min(popNumData);
       var diffPopData = maxPopData - minPopData;
       var basePopDomain = minPopData - diffPopData * 0.1;
+
       element.id = id;
 
       // height, width, and x and y data -> position scalers
@@ -80,7 +66,7 @@ worldPop.directive('wpLinechart', function($parse) {
 
       // tickLabels
       chart.selectAll('.xTickLabel')
-        .data(yearData)
+        .data(yearData, ticks(5))
         .enter()
         .append('text')
         .attr('class', 'xTickLabel')
@@ -90,7 +76,7 @@ worldPop.directive('wpLinechart', function($parse) {
         .attr('text-anchor', 'middle');
 
       chart.selectAll('.yTickLabel')
-        .data(y.ticks(5))
+        .data(y. ticks(5))
         .enter()
         .append("text")
         .attr("class", 'yTickLabel')
@@ -102,7 +88,7 @@ worldPop.directive('wpLinechart', function($parse) {
 
       // ticks
       chart.selectAll('.xTick')
-        .data(yearData)
+        .data(yearData, ticks(5))
         .enter()
         .append('line')
         .attr('class', 'xTick')
@@ -112,7 +98,7 @@ worldPop.directive('wpLinechart', function($parse) {
         .attr('y2', -1 * y(basePopDomain - diffPopData * 0.03));
 
       chart.selectAll('.yTick')
-        .data(y.ticks(5))
+        .data(y. ticks(5))
         .enter()
         .append('line')
         .attr('class', 'yTick')

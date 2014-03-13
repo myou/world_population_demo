@@ -1,5 +1,5 @@
 
-worldPop.controller('SelectCtrl', function($scope, wpData) {
+worldPop.controller('SelectCtrl', function($scope, wpData, wpState) {
   var countries = wpData.data.map(function(countryData) {
     return countryData.name;
   });
@@ -18,13 +18,13 @@ worldPop.controller('SelectCtrl', function($scope, wpData) {
     }).slice(0, 5);
   };
 
-  $scope.selectedCountries = [ 'United States', 'Arab World' ];
+  $scope.selectedCountries = wpState.selectedCountries = [ 'United States', 'Arab World' ];
 
   $scope.add = function(index) {
-    $scope.selectedCountries.push($scope.topFiveSearchResults()[index]);
+    wpState.selectedCountries.push($scope.topFiveSearchResults()[index]);
   };
 
   $scope.remove = function(index) {
-    $scope.selectedCountries.splice(index, 1);
+    wpState.selectedCountries.splice(index, 1);
   };
 });

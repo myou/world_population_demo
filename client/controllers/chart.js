@@ -1,17 +1,32 @@
 
 worldPop.controller('ChartCtrl', function($scope, wpData, wpState) {
+  var populationList = [];
+  var processedData = {
+    populationByYear: populationList
+  };
+
+  // hack, could not get data bind working properly
+  // if doing this for work, would either properly study d3.js data binding
+  // or simply use an eventemitter design
+  $scope.counter = 0;
+
   $scope.state = wpState;
 
-  $scope.data = calculateData();
+  $scope.data = processedData;
 
-  $scope.$watchCollection('state.selectedCountries', function() {
-    $scope.data = calculateData();
-  });
+  $scope.$watchCollection('state.selectedCountries', calculateData);
 
   function calculateData() {
+    $scope.counter++;
+
+    processedData.name = 'none';
+    processedData.code = '';
+    populationList.splice(0, populationList.length);
+
     var filtered = wpData.data.filter(function(country) {
       return wpState.selectedCountries.indexOf(country.name) !== -1;
     });
+
     if (filtered.length === 0) return null;
 
     var name = filtered.map(function(country) {
@@ -33,12 +48,11 @@ worldPop.controller('ChartCtrl', function($scope, wpData, wpState) {
           populationByYear[i].population += country.populationByYear[i].population || 0;
         }
       });
+
+      populationList[i] = populationByYear[i];
     }
 
-    return {
-      name: name,
-      code: code,
-      populationByYear: populationByYear
-    };
+    processedData.name = name;
+    processedData.code = code;
   }
 });

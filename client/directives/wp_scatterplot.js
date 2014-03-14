@@ -1,5 +1,5 @@
 
-worldPop.directive('wpLinechart', function() {
+worldPop.directive('wpScatterplot', function() {
   return {
     restrict: 'E',
     replace: true,
@@ -49,11 +49,6 @@ worldPop.directive('wpLinechart', function() {
         // axes
         var xAxis = d3.svg.axis().scale(getXPos).orient('bottom');
         var yAxis = d3.svg.axis().scale(getYPos).orient('left');
-
-        // line graph
-        var line = d3.svg.line()
-          .x(mapX)
-          .y(mapY);
 
         // chart
         var chart = d3.select('#' + attrs.id)

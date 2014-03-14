@@ -46,15 +46,24 @@ td {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-path {
-  stroke: black;
+
+.axis line {
   fill: none;
+  stroke: #000;
 }
 
-line {
+.label {
+  font-size: 15px;
+}
+
+.domain {
+  fill: none;
   stroke: black;
+  stroke-width: 1;
 }
 
-text {
-  font-size: 12pt;
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1px;
 }

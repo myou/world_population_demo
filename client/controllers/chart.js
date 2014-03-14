@@ -4,7 +4,7 @@ worldPop.controller('ChartCtrl', function($scope, wpData, wpState) {
 
   $scope.data = calculateData();
 
-  $scope.$watch('state', function() {
+  $scope.$watchCollection('state.selectedCountries', function() {
     $scope.data = calculateData();
   });
 
@@ -12,7 +12,6 @@ worldPop.controller('ChartCtrl', function($scope, wpData, wpState) {
     var filtered = wpData.data.filter(function(country) {
       return wpState.selectedCountries.indexOf(country.name) !== -1;
     });
-
     if (filtered.length === 0) return null;
 
     var name = filtered.map(function(country) {

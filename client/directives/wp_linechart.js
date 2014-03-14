@@ -23,7 +23,7 @@ worldPop.directive('wpLinechart', function($parse) {
       var basePopDomain = minPopData - diffPopData * 0.1;
 
       element.id = id;
-
+      /*
       // height, width, and x and y data -> position scalers
       var width = 1000;
       var height = 500;
@@ -76,7 +76,7 @@ worldPop.directive('wpLinechart', function($parse) {
         .attr('text-anchor', 'middle');
 
       chart.selectAll('.yTickLabel')
-        .data(y. ticks(5))
+        .data(y, ticks(5))
         .enter()
         .append("text")
         .attr("class", 'yTickLabel')
@@ -106,6 +106,7 @@ worldPop.directive('wpLinechart', function($parse) {
         .attr('x1', x(-0.05))
         .attr('y2', function(d) { return -1 * y(d); })
         .attr('x2', x(0));
+        */
     }
   };
 });

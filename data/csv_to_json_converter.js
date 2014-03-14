@@ -22,7 +22,7 @@ function processFile(callback) {
       output.push(countryDataToJSON(countryData));
     }
 
-    output = JSON.stringify(output, null, 2);
+    output = JSON.stringify(output);
     fs.writeFile('./world-pop.json', output, function() {
       console.log('Success! JSON written to ./world-pop.json');
       return callback(null);

@@ -11,7 +11,11 @@
   <h3>World Populations</h3>
 </div>
 
-<div ng-controller='SelectCtrl' class='select-view'>
+<div ng-if='false' class='loading'>
+  Loading, please wait for 2-3 seconds.
+</div>
+
+<div ng-controller='SelectCtrl' class='select-view ng-cloak'>
   <div class='chart-control'>
     <label>Choose visualization type:</label>
     <br/>
@@ -60,7 +64,7 @@
   </div>
 </div>
 
-<div ng-controller='ChartCtrl' class='linechart-view'>
+<div ng-controller='ChartCtrl' class='linechart-view ng-cloak'>
   <h4>Currently displaying data for {{data.name}}</h4>
   <div ng-if='state.chart === "linechart"'>
     <wp-linechart id='lc'></wp-linechart>
@@ -70,7 +74,7 @@
   </div>
 </div>
 
-<div ng-controller='TabularCtrl' class='tabular-view'>
+<div ng-controller='TabularCtrl' class='tabular-view ng-cloak'>
   <table class='table table-bordered table-striped'>
     <thead><tr>
       <th>Country</th>
@@ -92,6 +96,7 @@
 <script type='text/javascript'>
   var worldPopData = <%- worldPopData %>;
 </script>
+
 <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.min.js'></script>
 <script src='/app.js'></script>
 <script src='/services/wp_state.js'></script>

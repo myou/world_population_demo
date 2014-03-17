@@ -84,10 +84,108 @@ worldPop.directive('wpScatterplot', function() {
         chart.selectAll('.dot')
           .data(data)
           .enter().append('circle')
-          .attr('class', 'dot')
+          .attr('class', 'dot selectable')
           .attr('r', 5)
           .attr('cx', mapX)
-          .attr('cy', mapY);
+          .attr('cy', mapY)
+          .attr('data-year', function(datum) { return datum.year; })
+          .attr('data-pop', function(datum) { return datum.population; });
+
+        // drag to select
+        var mousedown = false;
+        var selectionField = chart.append('rect')
+          .attr('width', '100%')
+          .attr('height', '100%')
+          .attr('fill', 'none')
+          .attr('pointer-events', 'visible')
+          .attr('class', 'selection-field');
+
+        selectionField.on('mousedown', function() {
+          var point = d3.mouse(this);
+
+          chart.select('rect.selection').remove();
+          chart.append('rect')
+            .attr('class', 'selection')
+            .attr('x', point[0])
+            .attr('y', point[1])
+            .attr('width', 0)
+            .attr('height', 0);
+
+          mousedown = true;
+        }).on('mousemove', function() {
+          if (!mousedown) return;
+
+          var selection = chart.select( "rect.selection");
+          var selectionX = parseInt(selection.attr('x'), 10);
+          var selectionY = parseInt(selection.attr('y'), 10);
+          var width = parseInt(selection.attr('width'), 10);
+          var height = parseInt(selection.attr('height'), 10);
+
+          var point = d3.mouse(this)
+          var pointX = point[0];
+          var pointY = point[1];
+
+          var move = {
+            x: pointX - selectionX,
+            y: pointY - selectionY
+          };
+
+          if (move.x < 1 || move.x * 2 < width) {
+            selectionX = pointX;
+            width -= move.x;
+          } else {
+            width = move.x;
+          }
+
+          if (move.y < 1 || move.y * 2 < height) {
+            selectionY = pointY;
+            height -= move.y;
+          } else {
+            height = move.y;
+          }
+
+          selection
+            .attr('x', selectionX)
+            .attr('y', selectionY)
+            .attr('width', width)
+            .attr('height', height);
+
+          chart.selectAll('.dot').classed('selected', false);
+          var selected = getSelectedDots(chart, selection, mapX, mapY);
+          selected.classed('selected', true);
+        });
+
+        angular.element(document).on('mouseup', function() {
+          if (!mousedown) return; // for mouseup when view not visible
+
+          var selection = chart.select('rect.selection');
+          var selected = getSelectedDots(chart, selection, mapX, mapY);
+
+          selected.each(function(datum) {
+            console.log('selected data point: ' +
+              datum.year + ' : ' + datum.population + ' for ' + scope.data.name);
+          });
+
+          selection.remove();
+          mousedown = false;
+        });
+      }
+
+      function getSelectedDots(chart, selection, mapX, mapY) {
+        var x1 = parseInt(selection.attr('x'), 10);
+        var y1 = parseInt(selection.attr('y'), 10);
+        var x2 = x1 + parseInt(selection.attr('width'), 10);
+        var y2 = y1 + parseInt(selection.attr('height'), 10);
+
+        return chart.selectAll('.dot')
+          .filter(function(datum) {
+            var x = mapX(datum);
+            var y = mapY(datum);
+
+            var withinX = x >= x1 && x <= x2;
+            var withinY = y >= y1 && y <= y2;
+            return withinX && withinY;
+          });
       }
     }
   };

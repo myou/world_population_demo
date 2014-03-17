@@ -7,14 +7,14 @@ var startYear = 1960;
 var endYear = 2011;
 
 function deleteFile(callback) {
-  fs.unlink('./world-pop.json', function (err) {
+  fs.unlink('./data/world-pop.json', function (err) {
     console.log('successfully deleted file');
     return callback(null);
   });
 }
 
 function processFile(callback) {
-  fs.readFile('./world-pop.csv', function(err, data) {
+  fs.readFile('./data/world-pop.csv', function(err, data) {
     var countriesData = data.toString().split('\n').slice(0, -1);
 
     for (var i = 1; i < countriesData.length; i++) {
@@ -23,7 +23,7 @@ function processFile(callback) {
     }
 
     output = JSON.stringify(output);
-    fs.writeFile('./world-pop.json', output, function() {
+    fs.writeFile('./data/world-pop.json', output, function() {
       console.log('Success! JSON written to ./world-pop.json');
       return callback(null);
     });

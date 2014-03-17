@@ -68,7 +68,8 @@ hr {
   border: 1px solid gray;
   padding: 20px;
 
-  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 
   width: 400px;
   height: 600px;

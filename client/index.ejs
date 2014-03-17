@@ -7,6 +7,10 @@
 </head>
 <body>
 
+<div class='header'>
+  <h3>World Populations</h3>
+</div>
+
 <div ng-controller='SelectCtrl' class='select-view'>
   <div class='chart-control'>
     <label>Choose visualization type:</label>
@@ -18,6 +22,8 @@
     <span>Scatter Plot</span>
     <br/>
   </div>
+
+  <hr/>
 
   <div class='search-control'>
     <span>Search for other countries to add:</span>
@@ -38,6 +44,8 @@
       Nothing matches the search query.
     </div>
   </div>
+
+  <hr/>
 
   <div ng-if='selectedCountries.length === 0'>
     No countries selected at the moment.

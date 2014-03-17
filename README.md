@@ -2,6 +2,8 @@
 
 Visualize the world's population over time.
 
+[demo](http://worldpop.herokuapp.com/)
+
 ## Getting Started
 
 ### Dependencies

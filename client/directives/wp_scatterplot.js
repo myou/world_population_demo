@@ -80,19 +80,14 @@ worldPop.directive('wpScatterplot', function() {
           .style('text-anchor', 'start')
           .text('Population');
 
-        var path = chart.append('path')
-          .attr('class', 'line')
-          .attr('d', line(data));
-
-        var totalLength = path.node().getTotalLength();
-
-        path
-          .attr('stroke-dasharray', totalLength + ' ' + totalLength)
-          .attr('stroke-dashoffset', totalLength)
-          .transition()
-          .duration(2000)
-          .ease('linear')
-          .attr('stroke-dashoffset', 0);
+        // dots
+        chart.selectAll('.dot')
+          .data(data)
+          .enter().append('circle')
+          .attr('class', 'dot')
+          .attr('r', 5)
+          .attr('cx', mapX)
+          .attr('cy', mapY);
       }
     }
   };

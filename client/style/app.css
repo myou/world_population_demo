@@ -67,3 +67,7 @@ td {
   stroke: steelblue;
   stroke-width: 1px;
 }
+
+.dot {
+  fill: steelblue;
+}

@@ -8,6 +8,10 @@ worldPop.controller('SelectCtrl', function($scope, wpData, wpState) {
 
   $scope.search = search = {};
 
+  $scope.state = wpState;
+
+  $scope.state.chart = 'linechart';
+
   $scope.topFiveSearchResults = function() {
     if (!search.name) return;
 

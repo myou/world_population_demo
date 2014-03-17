@@ -8,6 +8,17 @@
 <body>
 
 <div ng-controller='SelectCtrl' class='select-view'>
+  <div class='chart-control'>
+    <label>Choose visualization type:</label>
+    <br/>
+    <input type='radio' ng-model='state.chart' value='linechart'/>
+    <span>Line Chart</span>
+    <br/>
+    <input type='radio' ng-model='state.chart' value='scatterplot'/>
+    <span>Scatter Plot</span>
+    <br/>
+  </div>
+
   <div class='search-control'>
     <span>Search for other countries to add:</span>
     <input type='text' ng-model='search.name'/>
@@ -43,8 +54,12 @@
 
 <div ng-controller='ChartCtrl' class='linechart-view'>
   <h4>Currently displaying data for {{data.name}}</h4>
-  <wp-linechart id='lc'>
-  </wp-linechart>
+  <div ng-if='state.chart === "linechart"'>
+    <wp-linechart id='lc'></wp-linechart>
+  </div>
+  <div ng-if='state.chart === "scatterplot"'>
+    <wp-scatterplot id='sp'></wp-scatterplot>
+  </div>
 </div>
 
 <div ng-controller='TabularCtrl' class='tabular-view'>
@@ -77,5 +92,6 @@
 <script src='/controllers/tabular.js'></script>
 <script src='/controllers/select.js'></script>
 <script src='/directives/wp_linechart.js'></script>
+<script src='/directives/wp_scatterplot.js'></script>
 </body>
 </html>

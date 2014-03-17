@@ -26,6 +26,7 @@ worldPop.controller('SelectCtrl', function($scope, wpData, wpState) {
 
   $scope.add = function(index) {
     wpState.selectedCountries.push($scope.topFiveSearchResults()[index]);
+    search.name = '';
   };
 
   $scope.remove = function(index) {

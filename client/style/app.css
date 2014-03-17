@@ -58,6 +58,10 @@ hr {
   display: inline-block;
 }
 
+.linechart-view .country-list {
+  color: blue;
+}
+
 .select-view {
   margin: 20px;
   margin-left: 50px;

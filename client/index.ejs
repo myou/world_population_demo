@@ -65,7 +65,7 @@
 </div>
 
 <div ng-controller='ChartCtrl' class='linechart-view ng-cloak'>
-  <h4>Currently displaying data for {{data.name}}</h4>
+  <h4>Currently displaying combined population for <span class='country-list'>{{data.name}}</span></h4>
   <div ng-if='state.chart === "linechart"'>
     <wp-linechart id='lc'></wp-linechart>
   </div>

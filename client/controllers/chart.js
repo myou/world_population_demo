@@ -29,9 +29,19 @@ worldPop.controller('ChartCtrl', function($scope, wpData, wpState) {
 
     if (filtered.length === 0) return;
 
-    var name = filtered.map(function(country) {
-      return country.name;
-    }).join(', ');
+    var nameList, name;
+    if (filtered.length === 2) {
+      name = filtered.map(function(country) {
+        return country.name;
+      }).join(' and ');
+    } else {
+      nameList = filtered.map(function(country) {
+        return country.name;
+      });
+      name = nameList[nameList.length - 1];
+      nameList[nameList.length - 1] = 'and ' + name;
+      name = nameList.join(', ');
+    }
 
     var code = filtered.map(function(country) {
       return country.code;

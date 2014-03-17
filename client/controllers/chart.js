@@ -27,7 +27,7 @@ worldPop.controller('ChartCtrl', function($scope, wpData, wpState) {
       return wpState.selectedCountries.indexOf(country.name) !== -1;
     });
 
-    if (filtered.length === 0) return null;
+    if (filtered.length === 0) return;
 
     var name = filtered.map(function(country) {
       return country.name;
@@ -37,19 +37,18 @@ worldPop.controller('ChartCtrl', function($scope, wpData, wpState) {
       return country.code;
     }).join(', ');
 
-    var populationByYear = filtered[0].populationByYear;
-    var others = filtered.slice(1);
+    for (var i = 0; i < filtered[0]['populationByYear'].length; i++) {
+      var year = filtered[0]['populationByYear'][i].year;
+      var population = 0;
 
-    for (var i = 0; i < populationByYear.length; i++) {
-      others.forEach(function(country) {
-        if (populationByYear[i].population === null) {
-          populationByYear[i].population = country.populationByYear[i].population;
-        } else {
-          populationByYear[i].population += country.populationByYear[i].population || 0;
-        }
+      filtered.forEach(function(country) {
+        population += country.populationByYear[i].population || 0;
       });
 
-      populationList[i] = populationByYear[i];
+      populationList[i] = {
+        year: year,
+        population: population
+      };
     }
 
     processedData.name = name;

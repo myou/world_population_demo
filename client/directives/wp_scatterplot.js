@@ -103,6 +103,8 @@ worldPop.directive('wpScatterplot', function() {
           .attr('class', 'selection-field');
 
         selectionField.on('mousedown', function() {
+          chart.selectAll('.dot').classed('selected', false);
+
           var point = d3.mouse(this);
 
           selectOrigin.x = point[0];
@@ -119,6 +121,8 @@ worldPop.directive('wpScatterplot', function() {
           mousedown = true;
         }).on('mousemove', function() {
           if (!mousedown) return;
+
+          d3.event.preventDefault();
 
           var selection = chart.select( "rect.selection");
           var selectionX, selectionY;

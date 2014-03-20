@@ -91,6 +91,8 @@ worldPop.directive('wpScatterplot', function() {
           .attr('data-year', function(datum) { return datum.year; })
           .attr('data-pop', function(datum) { return datum.population; });
 
+        var selectOrigin = {};
+
         // drag to select
         var mousedown = false;
         var selectionField = chart.append('rect')
@@ -103,11 +105,14 @@ worldPop.directive('wpScatterplot', function() {
         selectionField.on('mousedown', function() {
           var point = d3.mouse(this);
 
+          selectOrigin.x = point[0];
+          selectOrigin.y = point[1];
+
           chart.select('rect.selection').remove();
           chart.append('rect')
             .attr('class', 'selection')
-            .attr('x', point[0])
-            .attr('y', point[1])
+            .attr('x', selectOrigin.x)
+            .attr('y', selectOrigin.y)
             .attr('width', 0)
             .attr('height', 0);
 
@@ -116,8 +121,7 @@ worldPop.directive('wpScatterplot', function() {
           if (!mousedown) return;
 
           var selection = chart.select( "rect.selection");
-          var selectionX = parseInt(selection.attr('x'), 10);
-          var selectionY = parseInt(selection.attr('y'), 10);
+          var selectionX, selectionY;
           var width = parseInt(selection.attr('width'), 10);
           var height = parseInt(selection.attr('height'), 10);
 
@@ -125,23 +129,22 @@ worldPop.directive('wpScatterplot', function() {
           var pointX = point[0];
           var pointY = point[1];
 
-          var move = {
-            x: pointX - selectionX,
-            y: pointY - selectionY
-          };
-
-          if (move.x < 1 || move.x * 2 < width) {
-            selectionX = pointX;
-            width -= move.x;
+          // x origin and width
+          if (pointX >= selectOrigin.x) {
+            selectionX = selectOrigin.x;
+            width = pointX - selectionX;
           } else {
-            width = move.x;
+            selectionX = pointX;
+            width = selectOrigin.x - pointX;
           }
 
-          if (move.y < 1 || move.y * 2 < height) {
-            selectionY = pointY;
-            height -= move.y;
+          // y origin and height
+          if (pointY >= selectOrigin.y) {
+            selectionY = selectOrigin.y;
+            height = pointY - selectionY;
           } else {
-            height = move.y;
+            selectionY = pointY;
+            height = selectOrigin.y - pointY;
           }
 
           selection

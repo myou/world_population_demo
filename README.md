@@ -2,7 +2,7 @@
 
 Visualize the world's population over time.
 
-[demo](http://worldpop.herokuapp.com/)
+[demo](http://world-population-demo.herokuapp.com/)
 
 ## Getting Started
 

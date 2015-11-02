@@ -30,7 +30,7 @@ worldPop.directive('wpScatterplot', function() {
           right: 50,
           bottom: 30
         };
-        var width = 1000 - margin.left - margin.right;
+        var width = 900 - margin.left - margin.right;
         var height = 500 - margin.top - margin.bottom;
 
         // data to position mappings

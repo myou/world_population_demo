@@ -38,7 +38,6 @@ hr {
 
 .tabular-view {
   margin: 20px;
-  margin-left: 50px;
   border: 1px solid gray;
 
   background-color: white;
@@ -51,7 +50,7 @@ hr {
   border: 1px solid gray;
   padding: 20px;
 
-  width: 1000px;
+  width: 900px;
   height: 600px;
   background-color: white;
 
@@ -64,7 +63,6 @@ hr {
 
 .select-view {
   margin: 20px;
-  margin-left: 50px;
   border: 1px solid gray;
   padding: 20px;
 
